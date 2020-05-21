@@ -20,11 +20,16 @@ h1 {
   row-gap: 20px;
 }
 
+.product {
+  width: 300px;
+}
+
 .product_image {
   position: relative;
 }
 
 .product_price {
+  margin-top: 0.5rem;
   background: #00bfd8;
   color: white;
   font-weight: 800;
@@ -38,6 +43,7 @@ h1 {
 
 @media (max-width: 980px) {
   .product_container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
